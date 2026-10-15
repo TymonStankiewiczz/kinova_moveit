@@ -1,0 +1,44 @@
+# Prędkości wzięte z realnych limitów Kinova Gen3 (gen3_macro.xacro:
+# velocity="1.3963" dla jointów 1-4, "1.2218" dla 5-7). Przyspieszenia nie
+# są tam podane wprost - dobrane proporcjonalnie (jak dla SO-ARM100: zbyt
+# niskie przyspieszenie samo w sobie robi ruch "szarpany" przy planowaniu
+# malutkich kroków, patrz README).
+default_velocity_scaling_factor: 0.5
+default_acceleration_scaling_factor: 0.5
+
+joint_limits:
+  joint_1:
+    has_velocity_limits: true
+    max_velocity: 1.3963
+    has_acceleration_limits: true
+    max_acceleration: 3.5
+  joint_2:
+    has_velocity_limits: true
+    max_velocity: 1.3963
+    has_acceleration_limits: true
+    max_acceleration: 3.5
+  joint_3:
+    has_velocity_limits: true
+    max_velocity: 1.3963
+    has_acceleration_limits: true
+    max_acceleration: 3.5
+  joint_4:
+    has_velocity_limits: true
+    max_velocity: 1.3963
+    has_acceleration_limits: true
+    max_acceleration: 3.5
+  joint_5:
+    has_velocity_limits: true
+    max_velocity: 1.2218
+    has_acceleration_limits: true
+    max_acceleration: 3.0
+  joint_6:
+    has_velocity_limits: true
+    max_velocity: 1.2218
+    has_acceleration_limits: true
+    max_acceleration: 3.0
+  joint_7:
+    has_velocity_limits: true
+    max_velocity: 1.2218
+    has_acceleration_limits: true
+    max_acceleration: 3.0

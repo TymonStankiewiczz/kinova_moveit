@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000982] (kinova_moveit) JobQueued: {'identifier': 'kinova_moveit', 'dependencies': OrderedDict()}
+[0.001030] (kinova_moveit) JobStarted: {'identifier': 'kinova_moveit'}
+[0.010098] (kinova_moveit) JobProgress: {'identifier': 'kinova_moveit', 'progress': 'cmake'}
+[0.010838] (kinova_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/tymon/Downloads/soarm/kinova_moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit'], 'cwd': '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tymon'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tymon'), ('OLDPWD', '/home/tymon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1159'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tymon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tymon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tymon-VirtualBox:@/tmp/.ICE-unix/1122,unix/tymon-VirtualBox:/tmp/.ICE-unix/1122'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0b34502_2665_4c19_ad42_9617f584cc76'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SE3ZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.618'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.088054] (kinova_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.102162] (-) TimerEvent: {}
+[0.168874] (kinova_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.178591] (kinova_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.202240] (-) TimerEvent: {}
+[0.271288] (kinova_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.284748] (kinova_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285068] (kinova_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285732] (kinova_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.289696] (kinova_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.302652] (-) TimerEvent: {}
+[0.394675] (kinova_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.402719] (-) TimerEvent: {}
+[0.408221] (kinova_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.408676] (kinova_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.409347] (kinova_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.417480] (kinova_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.503274] (-) TimerEvent: {}
+[0.590585] (kinova_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.603404] (-) TimerEvent: {}
+[0.669000] (kinova_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.701693] (kinova_moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.703512] (-) TimerEvent: {}
+[0.754993] (kinova_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.760819] (kinova_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.771898] (kinova_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.786118] (kinova_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803670] (-) TimerEvent: {}
+[0.809400] (kinova_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.868190] (kinova_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.870873] (kinova_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.904326] (-) TimerEvent: {}
+[0.980806] (kinova_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.004853] (-) TimerEvent: {}
+[1.013781] (kinova_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.064703] (kinova_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.074244] (kinova_moveit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.105400] (-) TimerEvent: {}
+[1.169469] (kinova_moveit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.170271] (kinova_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.205863] (-) TimerEvent: {}
+[1.270032] (kinova_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.271418] (kinova_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.306521] (-) TimerEvent: {}
+[1.368679] (kinova_moveit) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.406914] (-) TimerEvent: {}
+[1.422730] (kinova_moveit) StdoutLine: {'line': b'-- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[1.507273] (-) TimerEvent: {}
+[1.562543] (kinova_moveit) StdoutLine: {'line': b'-- Found moveit_msgs: 2.2.3 (/opt/ros/humble/share/moveit_msgs/cmake)\n'}
+[1.607437] (-) TimerEvent: {}
+[1.708008] (-) TimerEvent: {}
+[1.716551] (kinova_moveit) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.728092] (kinova_moveit) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.808254] (-) TimerEvent: {}
+[1.817660] (kinova_moveit) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.835825] (kinova_moveit) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.837863] (kinova_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.838044] (kinova_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.850881] (kinova_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.908482] (-) TimerEvent: {}
+[1.952188] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.961509] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.961984] (kinova_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tymon/Downloads/soarm/kinova_moveit/include\n'}
+[1.962122] (kinova_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.969838] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.969972] (kinova_moveit) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.971495] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.974861] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.976849] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.984955] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.985080] (kinova_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.987601] (kinova_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.990292] (kinova_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.008638] (-) TimerEvent: {}
+[2.024715] (kinova_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[2.038085] (kinova_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit\n'}
+[2.054031] (kinova_moveit) CommandEnded: {'returncode': 0}
+[2.054964] (kinova_moveit) JobProgress: {'identifier': 'kinova_moveit', 'progress': 'build'}
+[2.057082] (kinova_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit', '--', '-j8', '-l8'], 'cwd': '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tymon'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tymon'), ('OLDPWD', '/home/tymon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1159'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tymon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tymon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tymon-VirtualBox:@/tmp/.ICE-unix/1122,unix/tymon-VirtualBox:/tmp/.ICE-unix/1122'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0b34502_2665_4c19_ad42_9617f584cc76'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SE3ZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.618'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.108913] (-) TimerEvent: {}
+[2.122474] (kinova_moveit) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_cartesian_plan.dir/src/keyboard_cartesian_plan.cpp.o\x1b[0m\n'}
+[2.122775] (kinova_moveit) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_joy_teleop.dir/src/keyboard_joy_teleop.cpp.o\x1b[0m\n'}
+[2.122998] (kinova_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_teleop.dir/src/joint_teleop.cpp.o\x1b[0m\n'}
+[2.215267] (-) TimerEvent: {}
+[2.316396] (-) TimerEvent: {}
+[2.417907] (-) TimerEvent: {}
+[2.519225] (-) TimerEvent: {}
+[2.620679] (-) TimerEvent: {}
+[2.723961] (-) TimerEvent: {}
+[2.824859] (-) TimerEvent: {}
+[2.926291] (-) TimerEvent: {}
+[3.027843] (-) TimerEvent: {}
+[3.129310] (-) TimerEvent: {}
+[3.230308] (-) TimerEvent: {}
+[3.331880] (-) TimerEvent: {}
+[3.432396] (-) TimerEvent: {}
+[3.532957] (-) TimerEvent: {}
+[3.633483] (-) TimerEvent: {}
+[3.735429] (-) TimerEvent: {}
+[3.836325] (-) TimerEvent: {}
+[3.940512] (-) TimerEvent: {}
+[4.041787] (-) TimerEvent: {}
+[4.142742] (-) TimerEvent: {}
+[4.249506] (-) TimerEvent: {}
+[4.350383] (-) TimerEvent: {}
+[4.453025] (-) TimerEvent: {}
+[4.554480] (-) TimerEvent: {}
+[4.655920] (-) TimerEvent: {}
+[4.756715] (-) TimerEvent: {}
+[4.858593] (-) TimerEvent: {}
+[4.991386] (-) TimerEvent: {}
+[5.092241] (-) TimerEvent: {}
+[5.202596] (-) TimerEvent: {}
+[5.303118] (-) TimerEvent: {}
+[5.409705] (-) TimerEvent: {}
+[5.510341] (-) TimerEvent: {}
+[5.613330] (-) TimerEvent: {}
+[5.731954] (-) TimerEvent: {}
+[5.833323] (-) TimerEvent: {}
+[5.933952] (-) TimerEvent: {}
+[6.035718] (-) TimerEvent: {}
+[6.170025] (-) TimerEvent: {}
+[6.304690] (-) TimerEvent: {}
+[6.408579] (-) TimerEvent: {}
+[6.509587] (-) TimerEvent: {}
+[6.610394] (-) TimerEvent: {}
+[6.711307] (-) TimerEvent: {}
+[6.817162] (-) TimerEvent: {}
+[6.919678] (-) TimerEvent: {}
+[7.021959] (-) TimerEvent: {}
+[7.124622] (-) TimerEvent: {}
+[7.226941] (-) TimerEvent: {}
+[7.327502] (-) TimerEvent: {}
+[7.428285] (-) TimerEvent: {}
+[7.529497] (-) TimerEvent: {}
+[7.550056] (kinova_moveit) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable joint_teleop\x1b[0m\n'}
+[7.629678] (-) TimerEvent: {}
+[7.730937] (-) TimerEvent: {}
+[7.831290] (-) TimerEvent: {}
+[7.931992] (-) TimerEvent: {}
+[7.933910] (kinova_moveit) StdoutLine: {'line': b'[ 66%] Built target joint_teleop\n'}
+[8.032856] (-) TimerEvent: {}
+[8.133392] (-) TimerEvent: {}
+[8.234092] (-) TimerEvent: {}
+[8.334493] (-) TimerEvent: {}
+[8.434974] (-) TimerEvent: {}
+[8.535399] (-) TimerEvent: {}
+[8.636133] (-) TimerEvent: {}
+[8.738656] (-) TimerEvent: {}
+[8.847491] (-) TimerEvent: {}
+[8.949531] (-) TimerEvent: {}
+[9.051606] (-) TimerEvent: {}
+[9.152137] (-) TimerEvent: {}
+[9.253043] (-) TimerEvent: {}
+[9.353603] (-) TimerEvent: {}
+[9.454345] (-) TimerEvent: {}
+[9.555640] (-) TimerEvent: {}
+[9.662067] (-) TimerEvent: {}
+[9.762534] (-) TimerEvent: {}
+[9.862978] (-) TimerEvent: {}
+[9.957305] (kinova_moveit) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable keyboard_cartesian_plan\x1b[0m\n'}
+[9.963174] (-) TimerEvent: {}
+[10.064478] (-) TimerEvent: {}
+[10.165518] (-) TimerEvent: {}
+[10.266194] (-) TimerEvent: {}
+[10.366917] (-) TimerEvent: {}
+[10.370338] (kinova_moveit) StdoutLine: {'line': b'[ 83%] Built target keyboard_cartesian_plan\n'}
+[10.467105] (-) TimerEvent: {}
+[10.567438] (-) TimerEvent: {}
+[10.667821] (-) TimerEvent: {}
+[10.771225] (-) TimerEvent: {}
+[10.872108] (-) TimerEvent: {}
+[10.993574] (-) TimerEvent: {}
+[11.094049] (-) TimerEvent: {}
+[11.194553] (-) TimerEvent: {}
+[11.295545] (-) TimerEvent: {}
+[11.400355] (-) TimerEvent: {}
+[11.500990] (-) TimerEvent: {}
+[11.605301] (-) TimerEvent: {}
+[11.706004] (-) TimerEvent: {}
+[11.806557] (-) TimerEvent: {}
+[11.907375] (-) TimerEvent: {}
+[12.007889] (-) TimerEvent: {}
+[12.108348] (-) TimerEvent: {}
+[12.209024] (-) TimerEvent: {}
+[12.309555] (-) TimerEvent: {}
+[12.410011] (-) TimerEvent: {}
+[12.511233] (-) TimerEvent: {}
+[12.611947] (-) TimerEvent: {}
+[12.712533] (-) TimerEvent: {}
+[12.813245] (-) TimerEvent: {}
+[12.915236] (-) TimerEvent: {}
+[13.018059] (-) TimerEvent: {}
+[13.119165] (-) TimerEvent: {}
+[13.219671] (-) TimerEvent: {}
+[13.320122] (-) TimerEvent: {}
+[13.420775] (-) TimerEvent: {}
+[13.521384] (-) TimerEvent: {}
+[13.622009] (-) TimerEvent: {}
+[13.722385] (-) TimerEvent: {}
+[13.789885] (kinova_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable keyboard_joy_teleop\x1b[0m\n'}
+[13.822974] (-) TimerEvent: {}
+[13.923617] (-) TimerEvent: {}
+[14.024290] (-) TimerEvent: {}
+[14.124659] (-) TimerEvent: {}
+[14.225446] (-) TimerEvent: {}
+[14.326166] (-) TimerEvent: {}
+[14.428408] (-) TimerEvent: {}
+[14.457267] (kinova_moveit) StdoutLine: {'line': b'[100%] Built target keyboard_joy_teleop\n'}
+[14.471164] (kinova_moveit) CommandEnded: {'returncode': 0}
+[14.472503] (kinova_moveit) JobProgress: {'identifier': 'kinova_moveit', 'progress': 'install'}
+[14.483855] (kinova_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit'], 'cwd': '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tymon'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tymon'), ('OLDPWD', '/home/tymon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1159'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tymon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tymon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tymon-VirtualBox:@/tmp/.ICE-unix/1122,unix/tymon-VirtualBox:/tmp/.ICE-unix/1122'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0b34502_2665_4c19_ad42_9617f584cc76'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SE3ZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.618'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.494852] (kinova_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.495425] (kinova_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.495910] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/lib/kinova_moveit/joint_teleop\n'}
+[14.507749] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/lib/kinova_moveit/keyboard_joy_teleop\n'}
+[14.519454] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/lib/kinova_moveit/keyboard_cartesian_plan\n'}
+[14.528931] (-) TimerEvent: {}
+[14.533147] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/urdf/kinova_gen3.urdf.xacro\n'}
+[14.543795] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/ATTRIBUTION.md\n'}
+[14.553968] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/base_link.dae\n'}
+[14.564633] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/bracelet_no_vision_link.dae\n'}
+[14.575943] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/forearm_link.dae\n'}
+[14.586536] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/half_arm_1_link.dae\n'}
+[14.596244] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/half_arm_2_link.dae\n'}
+[14.605494] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/shoulder_link.dae\n'}
+[14.615108] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/spherical_wrist_1_link.dae\n'}
+[14.624783] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/meshes/spherical_wrist_2_link.dae\n'}
+[14.629735] (-) TimerEvent: {}
+[14.635009] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/initial_positions.yaml\n'}
+[14.644801] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/joint_limits.yaml\n'}
+[14.654660] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/kinematics.yaml\n'}
+[14.664683] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/kinova_gen3.srdf\n'}
+[14.676162] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/moveit_controllers.yaml\n'}
+[14.686696] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/ompl_planning.yaml\n'}
+[14.697992] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/config/ros2_controllers.yaml\n'}
+[14.708502] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/rviz/moveit.rviz\n'}
+[14.719646] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/launch/demo.launch.py\n'}
+[14.730136] (-) TimerEvent: {}
+[14.731468] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/ament_index/resource_index/package_run_dependencies/kinova_moveit\n'}
+[14.744598] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/ament_index/resource_index/parent_prefix_path/kinova_moveit\n'}
+[14.757636] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/environment/ament_prefix_path.sh\n'}
+[14.769529] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/environment/ament_prefix_path.dsv\n'}
+[14.780818] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/environment/path.sh\n'}
+[14.792557] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/environment/path.dsv\n'}
+[14.802493] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/local_setup.bash\n'}
+[14.813169] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/local_setup.sh\n'}
+[14.824328] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/local_setup.zsh\n'}
+[14.830254] (-) TimerEvent: {}
+[14.835280] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/local_setup.dsv\n'}
+[14.845655] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/package.dsv\n'}
+[14.856920] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/ament_index/resource_index/packages/kinova_moveit\n'}
+[14.869171] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/cmake/kinova_moveitConfig.cmake\n'}
+[14.881614] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/cmake/kinova_moveitConfig-version.cmake\n'}
+[14.891974] (kinova_moveit) StdoutLine: {'line': b'-- Symlinking: /home/tymon/Downloads/soarm/kinova_moveit/install/kinova_moveit/share/kinova_moveit/package.xml\n'}
+[14.905445] (kinova_moveit) CommandEnded: {'returncode': 0}
+[14.928910] (kinova_moveit) JobEnded: {'identifier': 'kinova_moveit', 'rc': 0}
+[14.929752] (-) EventReactorShutdown: {}

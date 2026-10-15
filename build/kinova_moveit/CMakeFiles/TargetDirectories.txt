@@ -1,0 +1,12 @@
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/uninstall.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/kinova_moveit_uninstall.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/joint_teleop.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/keyboard_joy_teleop.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/keyboard_cartesian_plan.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/test.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/edit_cache.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/rebuild_cache.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/list_install_components.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/install.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/install/local.dir
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/CMakeFiles/install/strip.dir

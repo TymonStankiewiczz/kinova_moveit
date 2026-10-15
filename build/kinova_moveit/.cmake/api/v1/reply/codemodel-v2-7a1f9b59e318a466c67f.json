@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6cfd948ce056147b34f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kinova_moveit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_teleop-436fcb42026e9b289744.json",
+					"name" : "joint_teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_cartesian_plan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_cartesian_plan-c27bfdd97115e782d930.json",
+					"name" : "keyboard_cartesian_plan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_joy_teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_joy_teleop-e87327105a001fbdae1f.json",
+					"name" : "keyboard_joy_teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_moveit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_moveit_uninstall-0b8fe0b119dff4fc7d8b.json",
+					"name" : "kinova_moveit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f822eb803085d544ba3f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit",
+		"source" : "/home/tymon/Downloads/soarm/kinova_moveit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

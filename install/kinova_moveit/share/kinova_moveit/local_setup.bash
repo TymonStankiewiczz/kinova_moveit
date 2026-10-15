@@ -1,0 +1,1 @@
+/home/tymon/Downloads/soarm/kinova_moveit/build/kinova_moveit/ament_cmake_environment_hooks/local_setup.bash
